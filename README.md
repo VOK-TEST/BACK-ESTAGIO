@@ -55,7 +55,7 @@ Desenvolva um sistema de gerenciamento de clientes com as seguintes funcionalida
 
 ## Entrega: 📦
 
-1. **Código Versionado**: O código deve ser versionado no GitHub ou BitBucket e o repositório compartilhado com o usuário `hedleydarsh`.
+1. **Código Versionado**: O código deve ser versionado no GitHub e o repositório compartilhado com o usuário `hedleydarsh`.
 2. **Commits**: Realize commits separados para possibilitar o acompanhamento da evolução do projeto.
 3. **Dump do Banco de Dados**: Inclua um dump do banco de dados, populado e com estrutura de criação de tabelas, índices, e relacionamentos (`BANCODEDADOS.sql`).
 
