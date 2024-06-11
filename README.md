@@ -2,15 +2,16 @@
 
 Olá candidato(a)!
 
-Seja bem-vindo(a) ao desafio de desenvolvimento Back-end da VOKERÊ. Estamos em busca de um talento para a vaga de Estagiário de Back-end com conhecimentos em Laravel e PHP. Este desafio visa avaliar suas habilidades técnicas no desenvolvimento de aplicações web, bem como sua capacidade de trabalhar com banco de dados e integração com APIs externas.
+Seja bem-vindo(a) ao desafio de desenvolvimento Back-end da VOKERÊ. Estamos em busca de um talento para a vaga de Estagiário de Back-end com conhecimentos em Laravel e PHP. Este desafio visa avaliar suas habilidades técnicas no desenvolvimento de aplicações web, bem como sua capacidade de trabalhar com banco de dados.
 
 ## Tarefa: 📋
 
 Desenvolva um sistema de gerenciamento de clientes com as seguintes funcionalidades principais:
 
 ### Funcionalidades Gerais
-- **Autenticação e Autorização**: Registro e login de usuários.
-- **Cadastro de Endereços**: Permitir o cadastro de endereços utilizando busca por CEP via API fornecida.
+- **Autenticação e Autorização**: Registro e login de usuários. Você pode utilizar algum starter kit do Laravel, como [Sanctum](https://laravel.com/docs/11.x/sanctum), [Jetstream](https://jetstream.laravel.com/2.x/introduction.html) ou [Breeze](https://laravel.com/docs/11.x/starter-kits#laravel-breeze).
+- **CRUD de Clientes**: Implementar funcionalidades de Cadastro, Leitura, Atualização e Exclusão de clientes.
+- **Cadastro de Endereços**: Permitir o cadastro de endereços associados a cada cliente.
 - **Listagem de Clientes**: Listar clientes com opções de busca por nome.
 
 ### Detalhamento das Funcionalidades
@@ -21,8 +22,7 @@ Desenvolva um sistema de gerenciamento de clientes com as seguintes funcionalida
 - Email
 - Senha
 - Data de Nascimento (Deve ser formatada)
-- CEP (Consulta automática de endereço via API)
-- Endereço Completo (Preenchido automaticamente pelo CEP)
+- Endereço Completo (Rua, Número, Complemento, Bairro, Cidade, Estado, CEP)
 - Foto (Opcional)
 
 #### Funcionalidades por Nível de Acesso
@@ -37,7 +37,6 @@ Desenvolva um sistema de gerenciamento de clientes com as seguintes funcionalida
 
 **Administrador**
 - Todas as funcionalidades de um Gestor
-- Cadastro e Gestão de Endereços (com busca por CEP via API)
 
 #### Listagem de Clientes
 - Filtros: Nome e Data de Cadastro
@@ -46,14 +45,12 @@ Desenvolva um sistema de gerenciamento de clientes com as seguintes funcionalida
 ## Requisitos Técnicos: 🛠️
 
 - Todos os métodos que utilizam banco de dados devem ser implementados utilizando Eloquent.
-- A busca por CEP deve ser feita utilizando a API de exemplo: `https://viacep.com.br/ws/{cep}/json/`.
 - As datas devem ser formatadas apropriadamente para exibição.
 
 ## Critérios de Avaliação: 📝
 
 - Qualidade do código: organização, legibilidade e boas práticas.
 - Funcionalidade: a aplicação deve cumprir os requisitos propostos.
-- Integração com API: a busca por CEP deve funcionar corretamente.
 - Uso de Eloquent: deve ser utilizado para todas as operações com banco de dados.
 
 ## Entrega: 📦
